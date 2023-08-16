@@ -1,0 +1,20 @@
+.modal-container {
+    /* Stilurile existente */
+    /* ... */
+    display: none;
+  }
+  
+  .modal-reveal {
+    display: flex;
+    animation: modal-reveal-animation 0.5s forwards;
+  }
+  
+  @keyframes modal-reveal-animation {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
